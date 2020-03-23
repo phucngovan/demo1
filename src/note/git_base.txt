@@ -1,0 +1,9 @@
+git status
+git branch
+git checkout <branch_name>
+git add *
+git commit -m <message>
+// git commit -m "first commit"
+git push 
+git pull 
+test 434
