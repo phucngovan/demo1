@@ -391,6 +391,7 @@ export class MenuConfig {
 					title: 'Layout Builder',
 					root: true,
 					icon: 'flaticon2-expand',
+					translate: 'MENU.LayoutBuilder',
 					page: '/builder'
 				},
 				{section: 'Components'},
@@ -399,6 +400,7 @@ export class MenuConfig {
 					root: true,
 					bullet: 'dot',
 					icon: 'flaticon2-browser-2',
+					translate: 'MENU.COMPONENT',
 					submenu: [
 						{
 							title: 'Form Controls',

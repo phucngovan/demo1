@@ -13,6 +13,8 @@ export const locale = {
 			FEATURES: '特征',
 			APPS: '应用',
 			DASHBOARD: '仪表板',
+			LayoutBuilder: '1995',
+			COMPONENT: '0712'
 		},
 		AUTH: {
 			GENERAL: {

@@ -118,6 +118,7 @@ export class RegisterComponent implements OnInit, OnDestroy {
 	 */
 	submit() {
 		const controls = this.registerForm.controls;
+		console.log(controls.agree.value,'=>>>>>>')
 
 		// check form
 		if (this.registerForm.invalid) {

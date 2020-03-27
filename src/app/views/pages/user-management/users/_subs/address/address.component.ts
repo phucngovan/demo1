@@ -46,6 +46,7 @@ export class AddressComponent implements OnInit {
 	 * On init
 	 */
 	ngOnInit() {
+		console.log(this.addressSubject.value,'00001111222')
 		if (!this.addressSubject.value) {
 			const newAddress = new Address();
 			newAddress.clear();
@@ -69,6 +70,7 @@ export class AddressComponent implements OnInit {
 	 * Init form
 	 */
 	createForm() {
+
 		this.addressForm = this.fb.group({
 			addressLine: [this.addressSubject.value.addressLine, Validators.required],
 			city: [this.addressSubject.value.city, Validators.required],
@@ -87,6 +89,7 @@ export class AddressComponent implements OnInit {
 		if (this.addressForm.invalid) {
 			Object.keys(controls).forEach(controlName =>
 				controls[controlName].markAsTouched()
+				//bao da touch de bao loi
 			);
 			this.hasFormErrors = true;
 

@@ -1,5 +1,5 @@
 export class QueryParamsModel {
-	// fields
+	// fields// tslint:disable-next-line:indent
 	filter: any;
 	sortOrder: string; // asc || desc
 	sortField: string;

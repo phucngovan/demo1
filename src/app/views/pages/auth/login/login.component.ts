@@ -125,6 +125,7 @@ export class LoginComponent implements OnInit, OnDestroy {
 	 */
 	submit() {
 		const controls = this.loginForm.controls;
+		console.log(this.loginForm.invalid,'=====>>>')
 		/** check form */
 		if (this.loginForm.invalid) {
 			Object.keys(controls).forEach(controlName =>
